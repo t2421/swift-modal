@@ -20,6 +20,12 @@
 		33A70A9B26096FDD0078D61B /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9A26096FDD0078D61B /* DismissAnimator.swift */; };
 		33A70AA0260972F10078D61B /* DissmissTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9F260972F10078D61B /* DissmissTransitionable.swift */; };
 		33A70AA82609738A0078D61B /* DismissTransitioningInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */; };
+		33A70AB3260986FB0078D61B /* AppearAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AB2260986FB0078D61B /* AppearAnimator.swift */; };
+		33A70AB826098D3D0078D61B /* DismissInteractableAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AB726098D3D0078D61B /* DismissInteractableAnimator.swift */; };
+		33A70ABD26098F310078D61B /* ScrollViewModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70ABC26098F310078D61B /* ScrollViewModalViewController.swift */; };
+		33A70AC2260991B30078D61B /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AC1260991B30078D61B /* HogeViewController.swift */; };
+		33A70AC7260992C00078D61B /* NormalModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AC6260992C00078D61B /* NormalModalViewController.swift */; };
+		33A70ACC2609978A0078D61B /* FugaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70ACB2609978A0078D61B /* FugaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		33A70A9A26096FDD0078D61B /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
 		33A70A9F260972F10078D61B /* DissmissTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DissmissTransitionable.swift; sourceTree = "<group>"; };
 		33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissTransitioningInteractor.swift; sourceTree = "<group>"; };
+		33A70AB2260986FB0078D61B /* AppearAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearAnimator.swift; sourceTree = "<group>"; };
+		33A70AB726098D3D0078D61B /* DismissInteractableAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissInteractableAnimator.swift; sourceTree = "<group>"; };
+		33A70ABC26098F310078D61B /* ScrollViewModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModalViewController.swift; sourceTree = "<group>"; };
+		33A70AC1260991B30078D61B /* HogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
+		33A70AC6260992C00078D61B /* NormalModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalModalViewController.swift; sourceTree = "<group>"; };
+		33A70ACB2609978A0078D61B /* FugaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,12 @@
 				33A70A9A26096FDD0078D61B /* DismissAnimator.swift */,
 				33A70A9F260972F10078D61B /* DissmissTransitionable.swift */,
 				33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */,
+				33A70AB2260986FB0078D61B /* AppearAnimator.swift */,
+				33A70AB726098D3D0078D61B /* DismissInteractableAnimator.swift */,
+				33A70ABC26098F310078D61B /* ScrollViewModalViewController.swift */,
+				33A70AC1260991B30078D61B /* HogeViewController.swift */,
+				33A70AC6260992C00078D61B /* NormalModalViewController.swift */,
+				33A70ACB2609978A0078D61B /* FugaViewController.swift */,
 			);
 			path = modal;
 			sourceTree = "<group>";
@@ -274,13 +292,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				33A70AA0260972F10078D61B /* DissmissTransitionable.swift in Sources */,
+				33A70AB826098D3D0078D61B /* DismissInteractableAnimator.swift in Sources */,
+				33A70AB3260986FB0078D61B /* AppearAnimator.swift in Sources */,
+				33A70AC7260992C00078D61B /* NormalModalViewController.swift in Sources */,
 				33A70A9126096B280078D61B /* ModalViewController.swift in Sources */,
 				33A70A9B26096FDD0078D61B /* DismissAnimator.swift in Sources */,
 				33A70A9626096C630078D61B /* ModalPresentationController.swift in Sources */,
 				33A70A622609626C0078D61B /* ViewController.swift in Sources */,
 				33A70A5E2609626C0078D61B /* AppDelegate.swift in Sources */,
 				33A70A602609626C0078D61B /* SceneDelegate.swift in Sources */,
+				33A70AC2260991B30078D61B /* HogeViewController.swift in Sources */,
+				33A70ABD26098F310078D61B /* ScrollViewModalViewController.swift in Sources */,
 				33A70AA82609738A0078D61B /* DismissTransitioningInteractor.swift in Sources */,
+				33A70ACC2609978A0078D61B /* FugaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

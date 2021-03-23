@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: StackModalViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +15,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tap(_ sender: Any) {
-        present(ModalViewController.viewController(), animated: true, completion: nil)
+        present(HogeViewController.viewController(), animated: true, completion: nil)
     }
     
+    @IBAction func tapNormal(_ sender: Any) {
+        present(NormalModalViewController.viewController(), animated: true, completion: nil)
+    }
 }
 
