@@ -15,6 +15,11 @@
 		33A70A6A2609626D0078D61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A70A682609626D0078D61B /* LaunchScreen.storyboard */; };
 		33A70A752609626D0078D61B /* modalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A742609626D0078D61B /* modalTests.swift */; };
 		33A70A802609626D0078D61B /* modalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A7F2609626D0078D61B /* modalUITests.swift */; };
+		33A70A9126096B280078D61B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9026096B280078D61B /* ModalViewController.swift */; };
+		33A70A9626096C630078D61B /* ModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9526096C630078D61B /* ModalPresentationController.swift */; };
+		33A70A9B26096FDD0078D61B /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9A26096FDD0078D61B /* DismissAnimator.swift */; };
+		33A70AA0260972F10078D61B /* DissmissTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70A9F260972F10078D61B /* DissmissTransitionable.swift */; };
+		33A70AA82609738A0078D61B /* DismissTransitioningInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		33A70A7B2609626D0078D61B /* modalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A70A7F2609626D0078D61B /* modalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalUITests.swift; sourceTree = "<group>"; };
 		33A70A812609626D0078D61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A70A9026096B280078D61B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		33A70A9526096C630078D61B /* ModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationController.swift; sourceTree = "<group>"; };
+		33A70A9A26096FDD0078D61B /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		33A70A9F260972F10078D61B /* DissmissTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DissmissTransitionable.swift; sourceTree = "<group>"; };
+		33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissTransitioningInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				33A70A662609626D0078D61B /* Assets.xcassets */,
 				33A70A682609626D0078D61B /* LaunchScreen.storyboard */,
 				33A70A6B2609626D0078D61B /* Info.plist */,
+				33A70A9026096B280078D61B /* ModalViewController.swift */,
+				33A70A9526096C630078D61B /* ModalPresentationController.swift */,
+				33A70A9A26096FDD0078D61B /* DismissAnimator.swift */,
+				33A70A9F260972F10078D61B /* DissmissTransitionable.swift */,
+				33A70AA72609738A0078D61B /* DismissTransitioningInteractor.swift */,
 			);
 			path = modal;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A70AA0260972F10078D61B /* DissmissTransitionable.swift in Sources */,
+				33A70A9126096B280078D61B /* ModalViewController.swift in Sources */,
+				33A70A9B26096FDD0078D61B /* DismissAnimator.swift in Sources */,
+				33A70A9626096C630078D61B /* ModalPresentationController.swift in Sources */,
 				33A70A622609626C0078D61B /* ViewController.swift in Sources */,
 				33A70A5E2609626C0078D61B /* AppDelegate.swift in Sources */,
 				33A70A602609626C0078D61B /* SceneDelegate.swift in Sources */,
+				33A70AA82609738A0078D61B /* DismissTransitioningInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
